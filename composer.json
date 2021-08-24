@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "church-of-christ-copenhagen/laravel-church",
+    "description": "This is my package LaravelChurch",
     "keywords": [
-        ":vendor_name",
+        "Church of Christ Copenhagen",
         "laravel",
-        "package_slug"
+        "laravel-church"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/church-of-christ-copenhagen/laravel-church",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Travis Elkins",
+            "email": "travis.elkins+github@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "coccph\\LaravelChurch\\": "src",
+            "coccph\\LaravelChurch\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "coccph\\LaravelChurch\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "coccph\\LaravelChurch\\LaravelChurchServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelChurch": "coccph\\LaravelChurch\\LaravelChurchFacade"
             }
         }
     },

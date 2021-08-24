@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace coccph\LaravelChurch\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelChurchCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-church';
 
     public $description = 'My command';
 
