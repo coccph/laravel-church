@@ -2,9 +2,9 @@
 
 namespace coccph\LaravelChurch\Tests;
 
+use coccph\LaravelChurch\LaravelChurchServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use coccph\LaravelChurch\LaravelChurchServiceProvider;
 
 class TestCase extends Orchestra
 {

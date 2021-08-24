@@ -2,9 +2,9 @@
 
 namespace coccph\LaravelChurch;
 
+use coccph\LaravelChurch\Commands\LaravelChurchCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use coccph\LaravelChurch\Commands\LaravelChurchCommand;
 
 class LaravelChurchServiceProvider extends PackageServiceProvider
 {
